@@ -4,6 +4,7 @@ from io import BytesIO
 from make_teams import make_teams  # your existing function
 
 st.title("Generatore di Squadre")
+st.image("banner.png", use_container_width=True)
 
 uploaded = st.file_uploader("Carica il file Excel", type=["xlsx"])
 
